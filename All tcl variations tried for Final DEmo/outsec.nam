@@ -1,0 +1,28 @@
+V -t * -v 1.0a5 -a 0
+A -t * -n 1 -p 0 -o 0xffffffff -c 31 -a 1
+A -t * -h 1 -m 2147483647 -s 0
+c -t * -i 1 -n Blue
+c -t * -i 2 -n Red
+n -t * -a 4 -s 4 -S UP -v circle -c black -i black
+n -t * -a 0 -s 0 -S UP -v circle -c black -i black
+n -t * -a 5 -s 5 -S UP -v circle -c black -i black
+n -t * -a 1 -s 1 -S UP -v circle -c black -i black
+n -t * -a 2 -s 2 -S UP -v circle -c black -i black
+n -t * -a 3 -s 3 -S UP -v circle -c black -i black
+l -t * -s 0 -d 2 -S UP -r 5000000 -D 0.01 -c black -o right-down
+l -t * -s 1 -d 2 -S UP -r 5000000 -D 0.01 -c black -o right-up
+l -t * -s 2 -d 3 -S UP -r 1500000 -D 0.01 -c black -o right
+l -t * -s 3 -d 4 -S UP -r 5000000 -D 0.01 -c black -o right-up
+l -t * -s 3 -d 5 -S UP -r 5000000 -D 0.01 -c black -o right-down
++ -t 0.5 -s 0 -d 2 -p security_packet -e 1000 -c 1 -i 0 -a 1 -x {0.0 5.0 -1 ------- null}
+- -t 0.5 -s 0 -d 2 -p security_packet -e 1000 -c 1 -i 0 -a 1 -x {0.0 5.0 -1 ------- null}
+h -t 0.5 -s 0 -d 2 -p security_packet -e 1000 -c 1 -i 0 -a 1 -x {0.0 5.0 -1 ------- null}
+r -t 0.5116 -s 0 -d 2 -p security_packet -e 1000 -c 1 -i 0 -a 1 -x {0.0 5.0 -1 ------- null}
++ -t 0.5116 -s 2 -d 3 -p security_packet -e 1000 -c 1 -i 0 -a 1 -x {0.0 5.0 -1 ------- null}
+- -t 0.5116 -s 2 -d 3 -p security_packet -e 1000 -c 1 -i 0 -a 1 -x {0.0 5.0 -1 ------- null}
+h -t 0.5116 -s 2 -d 3 -p security_packet -e 1000 -c 1 -i 0 -a 1 -x {0.0 5.0 -1 ------- null}
+r -t 0.526933333333333 -s 2 -d 3 -p security_packet -e 1000 -c 1 -i 0 -a 1 -x {0.0 5.0 -1 ------- null}
++ -t 0.526933333333333 -s 3 -d 5 -p security_packet -e 1000 -c 1 -i 0 -a 1 -x {0.0 5.0 -1 ------- null}
+- -t 0.526933333333333 -s 3 -d 5 -p security_packet -e 1000 -c 1 -i 0 -a 1 -x {0.0 5.0 -1 ------- null}
+h -t 0.526933333333333 -s 3 -d 5 -p security_packet -e 1000 -c 1 -i 0 -a 1 -x {0.0 5.0 -1 ------- null}
+r -t 0.538533333333333 -s 3 -d 5 -p security_packet -e 1000 -c 1 -i 0 -a 1 -x {0.0 5.0 -1 ------- null}

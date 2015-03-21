@@ -1,0 +1,343 @@
+n -t * -s 0  -x 399 -y 197 -Z 0 -z 30  -v circle -c black
+n -t * -s 1  -x -263 -y 69 -Z 0 -z 30  -v circle -c black
+n -t * -s 2  -x 13 -y 223 -Z 0 -z 30  -v circle -c black
+n -t * -s 3  -x -81 -y 42 -Z 0 -z 30  -v circle -c black
+n -t * -s 4  -x 382 -y -1 -Z 0 -z 30  -v circle -c black
+n -t * -s 5  -x 352 -y 385 -Z 0 -z 30  -v circle -c black
+n -t * -s 6  -x 344 -y 493 -Z 0 -z 30  -v circle -c black
+n -t * -s 7  -x -200 -y 502 -Z 0 -z 30  -v circle -c black
+n -t * -s 8  -x -245 -y 338 -Z 0 -z 30  -v circle -c black
+n -t * -s 9  -x -72 -y 404 -Z 0 -z 30  -v circle -c black
+n -t * -s 10  -x 41 -y 540 -Z 0 -z 30  -v circle -c black
+n -t * -s 11  -x 103 -y 436 -Z 0 -z 30  -v circle -c black
+n -t * -s 12  -x 151 -y 36 -Z 0 -z 30  -v circle -c black
+n -t * -s 13  -x 594 -y 144 -Z 0 -z 30  -v circle -c black
+n -t * -s 14  -x 565 -y 327 -Z 0 -z 30  -v circle -c black
+n -t * -s 15  -x -307 -y 210 -Z 0 -z 30  -v circle -c black
+n -t * -s 16  -x -156 -y 190 -Z 0 -z 30  -v circle -c black
+n -t * -s 17  -x -152 -y 244 -Z 0 -z 30  -v circle -c black
+n -t * -s 18  -x -403 -y 417 -Z 0 -z 30  -v circle -c black
+n -t * -s 19  -x -164 -y 317 -Z 0 -z 30  -v circle -c black
+V -t * -v 1.0a5 -a 0
+W -t * -x 600 -y 600
+A -t * -n 1 -p 0 -o 0xffffffff -c 31 -a 1
+A -t * -h 1 -m 2147483647 -s 0
++ -t 0.000000000 -s 1 -d -1 -p security_paL“ -e 1000 -c 2 -a 0 -i 0 -k AGT 
+- -t 0.000000000 -s 1 -d -1 -p security_paL“ -e 1000 -c 2 -a 0 -i 0 -k AGT
+h -t 0.000000000 -s 1 -d -1 -p security_paL“ -e 1000 -c 2 -a 0 -i 0 -k AGT
+n -t 0 -s 1 -S DLABEL -l "SOURCE" -L ""
+n -t 0 -s 11 -S DLABEL -l "DESTINATION" -L ""
+m -t 0 -s 1 -n m -c pink -h circle
+m -t 0 -s 11 -n m -c blue -h circle
++ -t 0.000000000 -s 1 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR 
+- -t 0.000000000 -s 1 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+h -t 0.000000000 -s 1 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.001408492 -s 15 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.001408538 -s 16 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.001408613 -s 3 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.001408691 -s 17 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
++ -t 0.001550539 -s 15 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR 
+- -t 0.001550539 -s 15 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+h -t 0.001550539 -s 15 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
++ -t 0.002289765 -s 16 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR 
+- -t 0.002289765 -s 16 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+h -t 0.002289765 -s 16 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.002659013 -s 8 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.002659031 -s 1 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.002659047 -s 16 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.002659068 -s 17 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.002659134 -s 19 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.002659300 -s 18 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.003757227 -s 17 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.003757471 -s 19 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.003757554 -s 15 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.003757585 -s 1 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.003757600 -s 3 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.003757621 -s 2 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.003757622 -s 8 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.003757813 -s 9 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
++ -t 0.004185566 -s 2 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR 
+- -t 0.004185566 -s 2 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+h -t 0.004185566 -s 2 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.005494121 -s 17 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.005494140 -s 16 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.005494233 -s 9 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.005494234 -s 19 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.005494246 -s 3 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.005494337 -s 11 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
++ -t 0.005494337 -s 11 -d 2 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR 
+- -t 0.005494337 -s 11 -d 2 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR
+h -t 0.005494337 -s 11 -d 2 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR
+r -t 0.005494341 -s 12 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
++ -t 0.005749925 -s 19 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR 
+- -t 0.005749925 -s 19 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+h -t 0.005749925 -s 19 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
++ -t 0.005820347 -s 3 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR 
+- -t 0.005820347 -s 3 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+h -t 0.005820347 -s 3 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
++ -t 0.009047664 -s 8 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR 
+- -t 0.009047664 -s 8 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+h -t 0.009047664 -s 8 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
++ -t 0.009400245 -s 17 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR 
+- -t 0.009400245 -s 17 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+h -t 0.009400245 -s 17 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
++ -t 0.009730908 -s 12 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR 
+- -t 0.009730908 -s 12 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+h -t 0.009730908 -s 12 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
++ -t 0.010158490 -s 9 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR 
+- -t 0.010158490 -s 9 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+h -t 0.010158490 -s 9 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
++ -t 0.010262732 -s 2 -d 16 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR 
+- -t 0.010262732 -s 2 -d 16 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR
+h -t 0.010262732 -s 2 -d 16 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR
++ -t 0.011022535 -s 18 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR 
+- -t 0.011022535 -s 18 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+h -t 0.011022535 -s 18 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.011665183 -s 17 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.011665215 -s 8 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.011665358 -s 9 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.011665360 -s 16 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.011665531 -s 15 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.011665564 -s 7 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.011665604 -s 2 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.012603363 -s 16 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.012603429 -s 19 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.012603623 -s 8 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.012603712 -s 15 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.013926449 -s 16 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.013926510 -s 1 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.013926576 -s 2 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.013926610 -s 17 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.013926670 -s 12 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.015205444 -s 3 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.015205445 -s 2 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.015205450 -s 4 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.015490278 -s 7 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.016873070 -s 19 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.016873186 -s 7 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.016873238 -s 10 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.016873241 -s 11 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.016873244 -s 17 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.016873265 -s 8 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.016873315 -s 2 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.016873414 -s 16 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.017831544 -s 19 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.017831706 -s 17 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.017831739 -s 15 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.017831832 -s 7 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.017831841 -s 16 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.017831854 -s 18 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.017831883 -s 9 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
++ -t 0.018439054 -s 7 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR 
+- -t 0.018439054 -s 7 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+h -t 0.018439054 -s 7 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
++ -t 0.019247525 -s 4 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR 
+- -t 0.019247525 -s 4 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+h -t 0.019247525 -s 4 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.019967591 -s 9 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.019967621 -s 8 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.019967682 -s 19 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.019967787 -s 18 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.019967867 -s 10 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.020256188 -s 0 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.020256305 -s 12 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
++ -t 0.023612815 -s 0 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR 
+- -t 0.023612815 -s 0 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+h -t 0.023612815 -s 0 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.024841461 -s 5 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.024841478 -s 4 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.024841489 -s 13 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.024841518 -s 14 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
++ -t 0.026335887 -s 10 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR 
+- -t 0.026335887 -s 10 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+h -t 0.026335887 -s 10 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
++ -t 0.027411398 -s 5 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR 
+- -t 0.027411398 -s 5 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+h -t 0.027411398 -s 5 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.027504291 -s 11 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.027504476 -s 9 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.027504700 -s 7 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.029087406 -s 6 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.029087691 -s 0 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.029087781 -s 14 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
++ -t 0.029362981 -s 6 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR 
+- -t 0.029362981 -s 6 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+h -t 0.029362981 -s 6 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
++ -t 0.030289738 -s 14 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR 
+- -t 0.030289738 -s 14 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+h -t 0.030289738 -s 14 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.030611342 -s 5 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.030611807 -s 11 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
++ -t 0.031828221 -s 13 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR 
+- -t 0.031828221 -s 13 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+h -t 0.031828221 -s 13 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.031874520 -s 13 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.031874605 -s 0 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.031874638 -s 5 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.033056839 -s 14 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.033056895 -s 0 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
++ -t 0.040000000 -s 1 -d -1 -p security_paL“ -e 1000 -c 2 -a 0 -i 1 -k AGT 
+- -t 0.040000000 -s 1 -d -1 -p security_paL“ -e 1000 -c 2 -a 0 -i 1 -k AGT
+h -t 0.040000000 -s 1 -d -1 -p security_paL“ -e 1000 -c 2 -a 0 -i 1 -k AGT
++ -t 2.000000000 -s 1 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR 
+- -t 2.000000000 -s 1 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+h -t 2.000000000 -s 1 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.001428492 -s 15 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.001428538 -s 16 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.001428613 -s 3 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.001428691 -s 17 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
++ -t 2.001930025 -s 17 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR 
+- -t 2.001930025 -s 17 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+h -t 2.001930025 -s 17 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
++ -t 2.002342108 -s 16 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR 
+- -t 2.002342108 -s 16 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+h -t 2.002342108 -s 16 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.002998205 -s 16 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.002998271 -s 19 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.002998466 -s 8 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.002998554 -s 15 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.002998579 -s 2 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
++ -t 2.002998579 -s 2 -d 17 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR 
+- -t 2.002998579 -s 2 -d 17 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR
+h -t 2.002998579 -s 2 -d 17 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR
+r -t 2.002998621 -s 9 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.002998716 -s 1 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.002998739 -s 3 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
++ -t 2.003880467 -s 8 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR 
+- -t 2.003880467 -s 8 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+h -t 2.003880467 -s 8 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
++ -t 2.006345830 -s 3 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR 
+- -t 2.006345830 -s 3 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+h -t 2.006345830 -s 3 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.006575551 -s 17 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.006575795 -s 19 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.006575879 -s 15 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.006575909 -s 1 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.006575924 -s 3 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.006575945 -s 2 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.006575947 -s 8 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.006576137 -s 9 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
++ -t 2.007210472 -s 19 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR 
+- -t 2.007210472 -s 19 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+h -t 2.007210472 -s 19 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.007534477 -s 16 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.007534537 -s 1 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.007534604 -s 2 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.007534638 -s 17 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.007534698 -s 12 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
++ -t 2.009238267 -s 17 -d 1 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR 
+- -t 2.009238267 -s 17 -d 1 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR
+h -t 2.009238267 -s 17 -d 1 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR
+r -t 2.010570760 -s 17 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.010570793 -s 8 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.010570936 -s 9 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.010570938 -s 16 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.010571109 -s 15 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.010571142 -s 7 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.010571182 -s 2 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
++ -t 2.011142623 -s 9 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR 
+- -t 2.011142623 -s 9 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+h -t 2.011142623 -s 9 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
++ -t 2.011188559 -s 15 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR 
+- -t 2.011188559 -s 15 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+h -t 2.011188559 -s 15 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.012667763 -s 8 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.012667782 -s 1 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.012667797 -s 16 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.012667818 -s 17 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.012667885 -s 19 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.012668050 -s 18 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.013586042 -s 19 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.013586204 -s 17 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.013586238 -s 15 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.013586330 -s 7 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.013586339 -s 16 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.013586352 -s 18 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.013586381 -s 9 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
++ -t 2.014634917 -s 7 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR 
+- -t 2.014634917 -s 7 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+h -t 2.014634917 -s 7 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.014784803 -s 19 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.014784918 -s 7 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.014784970 -s 10 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.014784974 -s 11 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
++ -t 2.014784974 -s 11 -d 9 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR 
+- -t 2.014784974 -s 11 -d 9 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR
+h -t 2.014784974 -s 11 -d 9 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR
+r -t 2.014784977 -s 17 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.014784998 -s 8 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.014785047 -s 2 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.014785147 -s 16 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
++ -t 2.015690521 -s 12 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR 
+- -t 2.015690521 -s 12 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+h -t 2.015690521 -s 12 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.017037096 -s 4 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
++ -t 2.017356511 -s 4 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR 
+- -t 2.017356511 -s 4 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+h -t 2.017356511 -s 4 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
++ -t 2.017834860 -s 10 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR 
+- -t 2.017834860 -s 10 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+h -t 2.017834860 -s 10 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.018625173 -s 0 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
++ -t 2.019624948 -s 18 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR 
+- -t 2.019624948 -s 18 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+h -t 2.019624948 -s 18 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.021160922 -s 8 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.021161066 -s 7 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.021161093 -s 15 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.022159604 -s 9 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.022159633 -s 8 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.022159695 -s 19 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.022159800 -s 18 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.022159880 -s 10 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
++ -t 2.023832642 -s 0 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR 
+- -t 2.023832642 -s 0 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+h -t 2.023832642 -s 0 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
++ -t 2.026053162 -s 9 -d 17 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR 
+- -t 2.026053162 -s 9 -d 17 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR
+h -t 2.026053162 -s 9 -d 17 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR
++ -t 2.027950951 -s 17 -d 1 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR 
+- -t 2.027950951 -s 17 -d 1 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR
+h -t 2.027950951 -s 17 -d 1 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR
+d -t 2.027950951 -s 17 -d 1 -p AODV -e 44 -c 2 -a 0 -i 0 -k IFQ
+r -t 2.029234732 -s 4 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.029234743 -s 13 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.029234772 -s 14 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
++ -t 2.035388549 -s 1 -d 17 -p security_paL“¨/·¨/·h¿H¿ˆ\’h -e 1020 -c 2 -a 0 -i 0 -k RTR 
+- -t 2.035388549 -s 1 -d 17 -p security_paL“¨/·¨/·h¿H¿ˆ\’h -e 1020 -c 2 -a 0 -i 0 -k RTR
+h -t 2.035388549 -s 1 -d 17 -p security_paL“¨/·¨/·h¿H¿ˆ\’h -e 1020 -c 2 -a 0 -i 0 -k RTR
++ -t 2.035463671 -s 14 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR 
+- -t 2.035463671 -s 14 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+h -t 2.035463671 -s 14 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.036592289 -s 13 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.036592374 -s 0 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.036592407 -s 5 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
++ -t 2.036987442 -s 5 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR 
+- -t 2.036987442 -s 5 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+h -t 2.036987442 -s 5 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.038183346 -s 6 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.038183630 -s 0 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.038183720 -s 14 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
++ -t 2.038202752 -s 13 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR 
+- -t 2.038202752 -s 13 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+h -t 2.038202752 -s 13 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.040006741 -s 14 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.040006797 -s 0 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
++ -t 2.040451652 -s 6 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR 
+- -t 2.040451652 -s 6 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+h -t 2.040451652 -s 6 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 2.041980013 -s 5 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
++ -t 2.045388549 -s 1 -d 17 -p security_paL“¨/·¨/·àÿÁÀÿÁ -e 1020 -c 2 -a 0 -i 1 -k RTR 
+- -t 2.045388549 -s 1 -d 17 -p security_paL“¨/·¨/·àÿÁÀÿÁ -e 1020 -c 2 -a 0 -i 1 -k RTR
+h -t 2.045388549 -s 1 -d 17 -p security_paL“¨/·¨/·àÿÁÀÿÁ -e 1020 -c 2 -a 0 -i 1 -k RTR
++ -t 2.045454622 -s 17 -d 9 -p security_pa¨/·¨Å¦¨Å¦àrÂÀrÂ8OÂh	 -e 1020 -c 2 -a 0 -i 0 -k RTR 
+- -t 2.045454622 -s 17 -d 9 -p security_pa¨/·¨Å¦¨Å¦àrÂÀrÂ8OÂh	 -e 1020 -c 2 -a 0 -i 0 -k RTR
+h -t 2.045454622 -s 17 -d 9 -p security_pa¨/·¨Å¦¨Å¦àrÂÀrÂ8OÂh	 -e 1020 -c 2 -a 0 -i 0 -k RTR
++ -t 2.055261385 -s 17 -d 9 -p security_pa¨/·¨Å¦¨Å¦X‘¿8‘¿@€¿h	 -e 1020 -c 2 -a 0 -i 1 -k RTR 
+- -t 2.055261385 -s 17 -d 9 -p security_pa¨/·¨Å¦¨Å¦X‘¿8‘¿@€¿h	 -e 1020 -c 2 -a 0 -i 1 -k RTR
+h -t 2.055261385 -s 17 -d 9 -p security_pa¨/·¨Å¦¨Å¦X‘¿8‘¿@€¿h	 -e 1020 -c 2 -a 0 -i 1 -k RTR
+d -t 2.055261385 -s 17 -d 9 -p security_pa¨/·¨Å¦¨Å¦àrÂÀrÂ -e 1020 -c 2 -a 0 -i 0 -k IFQ
++ -t 2.069038559 -s 9 -d 11 -p security_pa¨Å¦XáªXáª À€ÀˆÀh -e 1020 -c 2 -a 0 -i 1 -k RTR 
+- -t 2.069038559 -s 9 -d 11 -p security_pa¨Å¦XáªXáª À€ÀˆÀh -e 1020 -c 2 -a 0 -i 1 -k RTR
+h -t 2.069038559 -s 9 -d 11 -p security_pa¨Å¦XáªXáª À€ÀˆÀh -e 1020 -c 2 -a 0 -i 1 -k RTR
+r -t 2.081054723 -s 11 -d 11 -p security_paXáªXáªXáª¸+Á˜+Á -e 1020 -c 2 -a 0 -i 1 -k AGT
